@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\ProAgil.Domain\ProAgil.Domain.csproj" />
+    <ProjectReference Include="..\..\Domain\ProAgil.Domain.shared\ProAgil.Domain.shared.csproj" />
+    <ProjectReference Include="..\ProAgil.infra.data\ProAgil.infra.data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="automapper" Version="9.0.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
